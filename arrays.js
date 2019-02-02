@@ -8,6 +8,14 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
 
+function addElementToEndOfArray(array, element) {
+  return array.push(element)
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  return [element, ...array]
+}
+
 
 
 console.log(chocolateBars)
